@@ -2,11 +2,5 @@
   "version": 2,
   "buildCommand": "npm run build",
   "installCommand": "npm install",
-  "framework": "nextjs",
-  "env": {
-    "OPENROUTER_API_KEY": {
-      "description": "OpenRouter API key for AI-powered crowd analysis. OPTIONAL — app runs in Offline Analysis Mode when absent.",
-      "required": false
-    }
-  }
+  "framework": "nextjs"
 }
