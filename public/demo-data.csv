@@ -1,0 +1,11 @@
+Gate,Capacity,Current Visitors,Queue Length,Volunteer Count,Status,Transport Delay,Weather,Medical Incidents,Timestamp
+Gate A,5000,4850,480,3,critical,25,Sunny,3,2026-07-15T10:00:00Z
+Gate B,3000,2950,620,2,critical,15,Partly Cloudy,1,2026-07-15T10:05:00Z
+Gate C,4000,3900,150000,4,critical,0,Clear,2,2026-07-15T10:10:00Z
+Gate D,6000,5700,390,2,critical,45,Sunny,5,2026-07-15T10:15:00Z
+Gate E,4500,3300,290,5,busy,10,Clear,0,2026-07-15T10:20:00Z
+Gate F,3500,2850,320,4,busy,30,Overcast,1,2026-07-15T10:25:00Z
+Gate G,5000,1600,75,6,normal,5,Sunny,0,2026-07-15T10:30:00Z
+Gate H,4000,1250,55,7,normal,0,,0,2026-07-15T10:35:00Z
+Gate I,3000,820,38,5,normal,20,Clear,0,2026-07-15T10:40:00Z
+Gate J,2500,480,18,4,normal,0,Partly Cloudy,0,2026-07-15T10:45:00Z
