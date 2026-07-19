@@ -37,8 +37,8 @@ describe('AnalysisExport', () => {
     sourceDataRefs: ['ref1', 'ref2']
   };
 
-  let createObjectURLMock: any;
-  let revokeObjectURLMock: any;
+  let createObjectURLMock: ReturnType<typeof vi.fn>;
+  let revokeObjectURLMock: ReturnType<typeof vi.fn>;
 
   beforeEach(() => {
     // Mock URL methods for JSON export
