@@ -21,10 +21,10 @@ import type { AnalysisResponse } from "@/types/analysis";
 export const maxDuration = 30; // seconds
 
 const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
-// Primary model: Gemini 2.5 Flash via OpenRouter
-const PRIMARY_MODEL = "google/gemini-2.5-flash";
-// Fallback model: also use Gemini 2.5 Flash to rely on OpenRouter provider failover
-const FALLBACK_MODEL = "google/gemini-2.5-flash";
+// Primary model: Gemini 1.5 Flash via OpenRouter
+const PRIMARY_MODEL = "google/gemini-1.5-flash";
+// Fallback model: also use Gemini 1.5 Flash to rely on OpenRouter provider failover
+const FALLBACK_MODEL = "google/gemini-1.5-flash";
 
 // Startup log to confirm configured models (helps detect silent model disappearance)
 console.log(`[analyzeRoute] AI Models Configured - Primary: ${PRIMARY_MODEL} | Fallback: ${FALLBACK_MODEL}`);
